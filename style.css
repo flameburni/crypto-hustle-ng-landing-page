@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+header {
+    background-color: #161b22;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar ul {
+    background-color: #161b22;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: #c9d1d9;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border-bottom: 0cm;
+}
+
+.navbar a:hover {
+    color: #ffc107;
+}
+
+.navbar a:active {
+     color: #ffc107;
+}
+
+.navbar li {
+    float: left;
+}
+
+.showcase {
+   background-image: url('crypto-showcase.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center 40%;
+   min-height: 400px;
+   text-align: center;
+   color: #ffff;
+   line-height: 1.7em;
+   padding-top: 150px;
+   padding-bottom: 150px;
+   font-weight: bold;
+}
+
+.showcase h1 {
+    margin-top: 0px;
+}
+
+.showcase .explore-btn {
+    padding: 10px 50px;
+    border-radius: 5px;
+    border-color: #ffc107;
+    background-color: #ffc107;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.showcase .explore-btn:hover {
+    background-color: transparent;
+    color: #ffc107;
+}
+
+.posts {
+    background-color: #161b22;
+    border:2px #ffc107 solid;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.posts h2 {
+    color: #ffff;
+}
+
+.posts p {
+    color: #8b949e;
+}
+
+.posts button {
+    background-color: transparent;
+    color: #ffc107;
+    border: 2px solid #30363d;
+    cursor: pointer;
+}
+
+.posts button:hover {
+    background-color: #30363d;
+    color: #ffb300;
+    border: 2px solid #30363d;
+}
+
+.subscribe-box {
+    background-color: #161b22;
+    border:2px #ffc107 solid;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.subscribe-box h2 {
+    color: #ffff;
+}
+
+
+.subscribe-box .my-form input {
+    display: block;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    color: #c9d1d9;
+    width: 100%;
+    font-size: 1em;
+}
+
+.subscribe-box .my-form input:focus {
+    outline: none;
+    border-color: #ffc107;
+}
+
+.subscribe-box .my-form input::placeholder {
+    color: #6e7681;
+}
+
+.subscribe-box .my-form button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.subscribe-box .my-form button:hover {
+    background-color: #ffb300;
+    box-shadow: 0px 5px 5px hsl(45, 100%, 51%, 0.3);
+}
+
+
+footer {
+    background-color: #161b22;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    display: block;
+    clear: both;
+}
+
